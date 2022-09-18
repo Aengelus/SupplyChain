@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2022-09-18T12:37:38.430Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="rtGutTIOJWtuqdDamyQX" version="20.3.0" type="github">
+  <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
+    <mxGraphModel dx="1427" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Farmer" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
+          <mxGeometry x="25" y="180" width="280" height="432" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Farm Product" style="" parent="2" vertex="1">
+          <mxGeometry x="85" y="100" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GykLL640QtxHBpIja2_Q-54" value="Track Authenticity" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;rounded=0;shadow=0;sketch=0;" vertex="1" parent="2">
+          <mxGeometry x="80" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GykLL640QtxHBpIja2_Q-57" value="" style="endArrow=none;strokeColor=#FF0000;endFill=0;rounded=0;exitX=1.018;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="2" target="GykLL640QtxHBpIja2_Q-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.50000000000003" y="150" as="sourcePoint" />
+            <mxPoint x="139.5" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3" value="Distributor" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
+          <mxGeometry x="305" y="180" width="280" height="432" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Deliver Product" style="" parent="3" vertex="1">
+          <mxGeometry x="85" y="100" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;" parent="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80" y="124.5" as="sourcePoint" />
+            <mxPoint x="80" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GykLL640QtxHBpIja2_Q-63" value="Track Authenticity" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;rounded=0;shadow=0;sketch=0;" vertex="1" parent="3">
+          <mxGeometry x="80" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GykLL640QtxHBpIja2_Q-64" value="" style="endArrow=none;strokeColor=#FF0000;endFill=0;rounded=0;exitX=1.018;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="3" target="GykLL640QtxHBpIja2_Q-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.5" y="150" as="sourcePoint" />
+            <mxPoint x="114.5" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4" value="Retailer" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
+          <mxGeometry x="585" y="180" width="280" height="432" as="geometry" />
+        </mxCell>
+        <mxCell id="GykLL640QtxHBpIja2_Q-47" value="Receive Product" style="" vertex="1" parent="4">
+          <mxGeometry x="85" y="100" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GykLL640QtxHBpIja2_Q-59" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;" edge="1" parent="4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80" y="124.5" as="sourcePoint" />
+            <mxPoint x="80" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GykLL640QtxHBpIja2_Q-65" value="Track Authenticity" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;rounded=0;shadow=0;sketch=0;" vertex="1" parent="4">
+          <mxGeometry x="80" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GykLL640QtxHBpIja2_Q-66" value="" style="endArrow=none;strokeColor=#FF0000;endFill=0;rounded=0;exitX=1.018;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="4" target="GykLL640QtxHBpIja2_Q-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.5" y="150" as="sourcePoint" />
+            <mxPoint x="114.5" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GykLL640QtxHBpIja2_Q-41" value="Consumer" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="865" y="180" width="280" height="432" as="geometry" />
+        </mxCell>
+        <mxCell id="GykLL640QtxHBpIja2_Q-48" value="Buy Product" style="" vertex="1" parent="GykLL640QtxHBpIja2_Q-41">
+          <mxGeometry x="85" y="100" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GykLL640QtxHBpIja2_Q-60" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;" edge="1" parent="GykLL640QtxHBpIja2_Q-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-75" y="124.5" as="sourcePoint" />
+            <mxPoint x="85" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GykLL640QtxHBpIja2_Q-67" value="Track Authenticity" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;rounded=0;shadow=0;sketch=0;" vertex="1" parent="GykLL640QtxHBpIja2_Q-41">
+          <mxGeometry x="80" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GykLL640QtxHBpIja2_Q-68" value="" style="endArrow=none;strokeColor=#FF0000;endFill=0;rounded=0;exitX=1.018;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="GykLL640QtxHBpIja2_Q-41" target="GykLL640QtxHBpIja2_Q-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.5" y="150" as="sourcePoint" />
+            <mxPoint x="114.5" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
