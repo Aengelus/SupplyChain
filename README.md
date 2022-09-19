@@ -1,3 +1,15 @@
+# Information
+Contract Address: https://rinkeby.etherscan.io/address/0x3678380CAf85Bd3BD50B28eB48697A91556656a7
+Transaction Hash: https://rinkeby.etherscan.io/tx/0x08dbb1664639f7b5f16cc044f880c8e4e205ebb9af3c018251013fac957abef7
+
+## Versions
+@truffle/hdwallet-provider   2.0.14  
+Truffle                      5.5.28 (core: 5.5.28)  
+Ganache                      7.4.0  
+Solidity -                   0.4.24 (solc-js)  
+Node                        16.16.0  
+Web3.js                      1.7.4  
+npm                          8.11.0  
 # Supply chain & data auditing
 
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
